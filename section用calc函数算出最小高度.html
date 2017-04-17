@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            /*min-height: 100%;*/
+            min-width: 1200px;
+        }
+
+        body {
+            font: 14px/1.5 "Microsoft YaHei", sans-serif;
+            color: #666666;
+            background: #e8e8e8;
+        }
+
+        .header {
+            width: 100%;
+            background-color: #f1a899;
+            height: 64px;
+            box-shadow: 0 0 0 transparent, 0 0 0 transparent, 0 4px 8px #DFDFDF, 0 0 0 transparent;
+        }
+
+        .section {
+            min-height: calc(100vh - 95px);
+        }
+
+        .container {
+            width: 1200px;
+            height: 500px;
+            margin: 0 auto;
+            background: #ffffff;
+        }
+
+        .footer {
+            height: 95px;
+            width: 100%;
+            background: #858B9A;
+        }
+    </style>
+</head>
+<body>
+
+<div class="section">
+    <div class="header">
+        header页面头部
+    </div>
+    <div class="container">
+        页面主体内容
+    </div>
+</div>
+<div class="footer">
+    footer页面底部
+</div>
+</body>
+</html>
